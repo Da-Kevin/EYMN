@@ -1,0 +1,102 @@
+*{ 
+    margin: 0; 
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: Papernotes;
+    src: url(../fuente/Papernotes.ttf);
+}
+
+.logo {
+    width: 220px;
+    margin-top: -50px;
+    cursor: pointer;
+    margin-left: -5%;
+}
+
+.titulo1 {
+    font-family: Papernotes;
+    font-size: 650%;
+    margin-left: 1%;
+    margin-top: 7%;
+}
+
+.buttom1 {
+    cursor: pointer;
+    display: inline-block; 
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    left: 79%;
+    
+}
+
+.buttom1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttom1 >a:hover {
+    color: black;
+}
+
+.buttom2 {
+    cursor: pointer;
+    display: inline-block; 
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    left: 80%;
+    
+}
+
+.buttom2 > a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttom2 >a:hover{
+    color: black;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/imgpag/FONDO\ INDEX.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.boton{
+    display: inline-block; 
+    background: #EEC6A8;
+    border-radius: 30px; 
+    padding: 15px 60px; 
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000; 
+    box-shadow: 3px 8px 22px #EEC6A8; 
+    margin-left: 1%;
+    border: #EEC6A8;
+    cursor: pointer;
+}
+
+.boton:hover {
+    color: white;
+    background: #9E551C;
+    box-shadow: 3px 8px 22px #9E551C; 
+}
+
+.boton > h2 {
+    font-family: Arial;
+}

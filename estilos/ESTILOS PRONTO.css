@@ -1,0 +1,121 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.contador{ 
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/imgpag/background.1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+.logo{ 
+    width: 420px;
+    padding: 20px 0;
+    cursor: pointer;
+    position: relative;
+    left: -90px;
+}
+.contenido{ 
+    top: 50%; 
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.contenido h1{ 
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.contenido h1 span{ 
+    color: #ff3753; 
+}
+
+.contenido button{ 
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.contenido button img{ 
+    width: 30px;
+    margin-left: 10px;
+    color: #fff;
+    position: relative;
+    top: 10px;
+}
+
+.contenido a{ 
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+
+.tiempo{ 
+    display: flex;
+}
+
+.tiempo div {  
+    flex-basis: 100px;
+}
+
+.tiempo div p{ 
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+.social-links{ 
+    transform: rotate(-90deg);
+    position: absolute; 
+    left: -80px;
+    bottom: 180px;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #ffffff; 
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.derecha { 
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: 750px;
+}
+
+.cohete{ 
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: cohete 4s linear infinite;
+}
+
+@keyframes cohete{ 
+    0%{ 
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{ 
+        bottom: 105%;
+        opacity: 1;
+    }
+}
